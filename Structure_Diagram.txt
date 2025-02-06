@@ -1,0 +1,26 @@
+Bitmap Interpreter:
+- Interpret Images
+    - Save Encrypted (Hex + encrypted or just hex) binary file
+        - Create File Extension
+            - ?????
+
+
+    - Read binary file
+        - Read number of bits relating to colour depth
+            - Decrypt Run length encoding
+            - New Line if PIXELS % WIDTH = 0 
+
+        - Interpret Colour
+            - Read bits for R, G and B
+                - Convert Binary to Decimal
+            - Assign RGB value based on read bits
+                - Minimum of 3 bits for R G and B values else just black and white (grey if 2 bits, take average)
+                - Divide RGB Spectrum into parts based on Colour depth
+
+
+    - Convert Image to Bitmap
+        - Divide Image into reasonbly big chunks
+            - Find average colour of chunks
+
+
+    - Output Image
