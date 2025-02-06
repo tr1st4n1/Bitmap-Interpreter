@@ -8,7 +8,7 @@ Bitmap Interpreter:
     - Read binary file
         - Read number of bits relating to colour depth
             - Decrypt Run length encoding
-            - New Line if PIXELS % WIDTH = 0 
+            - New line when Width amount of Pixels have been output
 
         - Interpret Colour
             - Read bits for R, G and B
