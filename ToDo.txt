@@ -1,3 +1,2 @@
 - Add UI interface
-- Get Colour Depth above 1 working
-    - Add meta data for colour depth
+    - Display Output in a grid formation
