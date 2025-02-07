@@ -34,7 +34,7 @@ def read_bitmap(bitmap: str, _COLOUR_DEPTH) -> None:
 # ---------------------------------------------------------------------------------
 
 # File
-with open("bitmap_test.txt", 'r') as bitmap_file:
+with open("bitmap.txt", 'r') as bitmap_file:
     bitmap: str = bitmap_file.read().replace(' ', '').replace('\n', '')
     bitmap_file.close()
 

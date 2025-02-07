@@ -10,6 +10,6 @@ def rgb_to_hex(rgb: tuple) -> str:
 root = Tk()
 root.geometry('300x500')
 root.title('Test')
-root.config(bg=f"#{rgb_to_hex((170, 255, 255))}")
+root.config(bg=f"#{rgb_to_hex((170, 170, 255))}")
 
 root.mainloop()
