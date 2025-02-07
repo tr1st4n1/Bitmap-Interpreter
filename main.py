@@ -33,10 +33,12 @@ def read_bitmap(bitmap: str, _COLOUR_DEPTH) -> None:
 
 # ---------------------------------------------------------------------------------
 
+# File
 with open("bitmap_test.txt", 'r') as bitmap_file:
     bitmap: str = bitmap_file.read().replace(' ', '').replace('\n', '')
     bitmap_file.close()
 
+# Read Meta Data
 WIDTH: int = binary_to_int(bitmap[0:4])
 HEIGHT: int = binary_to_int(bitmap[4:8])
 COLOUR_DEPTH: int = binary_to_int(bitmap[8:12])
